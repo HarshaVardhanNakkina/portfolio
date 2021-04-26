@@ -1,0 +1,24 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"serve": "eleventy --serve",
+		"build": "eleventy"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HarshaVardhanNakkina/portfolio.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/HarshaVardhanNakkina/portfolio/issues"
+	},
+	"homepage": "https://github.com/HarshaVardhanNakkina/portfolio#readme",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.12.1"
+	}
+}
