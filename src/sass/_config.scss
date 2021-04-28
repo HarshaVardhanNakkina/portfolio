@@ -1,0 +1,42 @@
+@use './colors' as *;
+@use './font-sizes' as *;
+
+:root {
+	@each $color, $value in $colors {
+		--#{$color}: #{$value};
+	}
+	@each $color, $tint-list in $tints {
+		$ind: 1;
+		@each $tint in $tint-list {
+			--#{$color}-tint-#{$ind}: #{$tint};
+			$ind: $ind + 1;
+		}
+	}
+
+	--bg: var(--honey-dew-tint-4);
+	--text-color: var(--rich-black);
+	--highlight-color: var(--midnight-green);
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+}
+
+a {
+	&:not(img, svg) {
+		text-decoration: none;
+	}
+}

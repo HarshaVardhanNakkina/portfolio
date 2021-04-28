@@ -1,0 +1,17 @@
+@use './font-sizes' as *;
+
+.intro {
+	@include title-font;
+
+	padding: 2rem 0;
+	line-height: 1.5;
+	letter-spacing: -2px;
+
+	.highlight {
+		color: var(--highlight-color);
+		// background: linear-gradient(to right, var(--midnight-green-tint-1), var(--midnight-green-tint-2));
+		// background-clip: text;
+		// -webkit-text-fill-color: transparent;
+		// -webkit-background-clip: text;
+	}
+}

@@ -1,0 +1,109 @@
+:root {
+  --honey-dew: #ddf8e8;
+  --honey-dew-80: #b3efcb;
+  --honey-dew-70: #88e7ae;
+  --honey-dew-60: #5ede91;
+  --honey-dew-50: #34d574;
+  --honey-dew-40: #24b25d;
+  --midnight-green: #114c5f;
+  --midnight-green-70: #86d1ea;
+  --midnight-green-60: #5ac0e2;
+  --midnight-green-50: #2fafda;
+  --midnight-green-40: #2091b6;
+  --midnight-green-30: #186e8b;
+  --mellow-apricot: #fcb97e;
+  --mellow-apricot-60: #fa9d4c;
+  --mellow-apricot-50: #f9821a;
+  --mellow-apricot-40: #db6906;
+  --mellow-apricot-30: #a95104;
+  --mellow-apricot-20: #773903;
+  --paradise-pink-70: #f29cb2;
+  --paradise-pink-60: #eb6f8e;
+  --paradise-pink: #e5436b;
+  --paradise-pink-40: #d71d4c;
+  --paradise-pink-30: #ab173c;
+  --paradise-pink-20: #7e112c;
+  --rich-black: #0e0b0c;
+  --rich-black-10: #2b2225;
+  --rich-black-20: #47383d;
+  --rich-black-30: #644f56;
+  --rich-black-45: #81656e;
+  --rich-black-50: #9a7e88;
+  --rich-black-60: #b09ba2;
+  --honey-dew-tint-1: #e6f9ee;
+  --honey-dew-tint-2: #eafbf0;
+  --honey-dew-tint-3: #f2fcf7;
+  --honey-dew-tint-4: #f6fef9;
+  --rich-black-tint-1: #7b6069;
+  --rich-black-tint-2: #aa929a;
+  --rich-black-tint-3: #d4c9cd;
+  --rich-black-tint-4: #dbd2d5;
+  --midnight-green-tint-1: #1d83a5;
+  --midnight-green-tint-2: #33b1db;
+  --midnight-green-tint-3: #79cce7;
+  --midnight-green-tint-4: #bae4f3;
+  --paradise-pink-tint-1: #e96788;
+  --paradise-pink-tint-2: #ef8fa7;
+  --paradise-pink-tint-3: #f5b3c3;
+  --paradise-pink-tint-4: #fadbe3;
+  --mellow-apricot-tint-1: #fdc696;
+  --mellow-apricot-tint-2: #fdd6b4;
+  --mellow-apricot-tint-3: #fee4cd;
+  --mellow-apricot-tint-4: #fef2e6;
+  --bg: var(--honey-dew-tint-4);
+  --text-color: var(--rich-black);
+  --highlight-color: var(--midnight-green);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+a:not(img, svg) {
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-color);
+  margin: 0 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+nav .icon {
+  color: var(--highlight-color);
+}
+nav .icon svg {
+  fill: currentColor;
+}
+
+.intro {
+  font-weight: bold;
+  font-size: 2.6666666667rem;
+  padding: 2rem 0;
+  line-height: 1.5;
+  letter-spacing: -2px;
+}
+.intro .highlight {
+  color: var(--highlight-color);
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,69 @@
+$colors: (
+	'honey-dew': hsl(144, 66%, 92%),
+	'honey-dew-80': hsl(144, 66%, 82%),
+	'honey-dew-70': hsl(144, 66%, 72%),
+	'honey-dew-60': hsl(144, 66%, 62%),
+	'honey-dew-50': hsl(144, 66%, 52%),
+	'honey-dew-40': hsl(144, 66%, 42%),
+	'midnight-green': hsl(195, 70%, 22%),
+	'midnight-green-70': hsl(195, 70%, 72%),
+	'midnight-green-60': hsl(195, 70%, 62%),
+	'midnight-green-50': hsl(195, 70%, 52%),
+	'midnight-green-40': hsl(195, 70%, 42%),
+	'midnight-green-30': hsl(195, 70%, 32%),
+	'mellow-apricot': hsl(28, 95%, 74%),
+	'mellow-apricot-60': hsl(28, 95%, 64%),
+	'mellow-apricot-50': hsl(28, 95%, 54%),
+	'mellow-apricot-40': hsl(28, 95%, 44%),
+	'mellow-apricot-30': hsl(28, 95%, 34%),
+	'mellow-apricot-20': hsl(28, 95%, 24%),
+	'paradise-pink-70': hsl(345, 76%, 78%),
+	'paradise-pink-60': hsl(345, 76%, 68%),
+	'paradise-pink': hsl(345, 76%, 58%),
+	'paradise-pink-40': hsl(345, 76%, 48%),
+	'paradise-pink-30': hsl(345, 76%, 38%),
+	'paradise-pink-20': hsl(345, 76%, 28%),
+	'rich-black': hsl(340, 12%, 5%),
+	'rich-black-10': hsl(340, 12%, 15%),
+	'rich-black-20': hsl(340, 12%, 25%),
+	'rich-black-30': hsl(340, 12%, 35%),
+	'rich-black-45': hsl(340, 12%, 45%),
+	'rich-black-50': hsl(340, 12%, 55%),
+	'rich-black-60': hsl(340, 12%, 65%) // 'mellow-apricot': hsl(28, 95%, 74%),
+	// 'midnight-green': hsl(195, 70%, 22%),
+	// 'paradise-pink': hsl(345, 76%, 58%),
+	// 'rich-black': hsl(340, 12%, 5%),
+	// 'honey-dew': hsl(144, 66%, 92%)
+);
+$tints: (
+	'honey-dew': (
+		hsl(146, 64%, 94%),
+		hsl(142, 67%, 95%),
+		hsl(147, 65%, 97%),
+		hsl(140, 75%, 98%)
+	),
+	'rich-black': (
+		hsl(340, 12%, 43%),
+		hsl(340, 12%, 62%),
+		hsl(338, 11%, 81%),
+		hsl(340, 11%, 84%)
+	),
+	'midnight-green': (
+		hsl(195, 70%, 38%),
+		hsl(195, 70%, 53%),
+		hsl(195, 70%, 69%),
+		hsl(195, 70%, 84%)
+	),
+	'paradise-pink': (
+		hsl(345, 75%, 66%),
+		hsl(345, 75%, 75%),
+		hsl(345, 76%, 83%),
+		hsl(345, 77%, 92%)
+	),
+	'mellow-apricot': (
+		hsl(28, 96%, 79%),
+		hsl(28, 95%, 85%),
+		hsl(28, 96%, 90%),
+		hsl(29, 93%, 95%)
+	)
+);
